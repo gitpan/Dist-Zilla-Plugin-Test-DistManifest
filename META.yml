@@ -23,6 +23,9 @@ meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
 name: Dist-Zilla-Plugin-Test-DistManifest
+no_index:
+  directory:
+    - corpus
 requires:
   Dist::Zilla::Plugin::InlineFiles: 0
   Moose: 0
@@ -32,5 +35,6 @@ requires:
   warnings: 0
 resources:
   bugtracker: https://github.com/doherty/Dist-Zilla-Plugin-Test-DistManifest/issues
+  homepage: http://metacpan.org/release/Dist-Zilla-Plugin-Test-DistManifest/
   repository: git://github.com/doherty/Dist-Zilla-Plugin-Test-DistManifest.git
-version: 2.0.0
+version: 2.0.1
