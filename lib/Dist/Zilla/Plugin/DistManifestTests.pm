@@ -4,7 +4,7 @@ use warnings;
 
 package Dist::Zilla::Plugin::DistManifestTests;
 # ABSTRACT: (DEPRECATED) Release tests for the manifest
-our $VERSION = '2.000002'; # VERSION
+our $VERSION = '2.000003'; # VERSION
 use Moose;
 extends 'Dist::Zilla::Plugin::Test::DistManifest';
 
@@ -16,8 +16,8 @@ __PACKAGE__->meta->make_immutable;
 no Moose;
 1;
 
-
 __END__
+
 =pod
 
 =encoding utf-8
@@ -28,7 +28,7 @@ Dist::Zilla::Plugin::DistManifestTests - (DEPRECATED) Release tests for the mani
 
 =head1 VERSION
 
-version 2.000002
+version 2.000003
 
 =head1 SYNOPSIS
 
@@ -81,4 +81,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
