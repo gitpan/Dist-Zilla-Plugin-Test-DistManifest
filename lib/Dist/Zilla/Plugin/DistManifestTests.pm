@@ -4,7 +4,7 @@ use warnings;
 
 package Dist::Zilla::Plugin::DistManifestTests;
 # ABSTRACT: (DEPRECATED) Release tests for the manifest
-our $VERSION = '2.000003'; # VERSION
+our $VERSION = '2.000004'; # VERSION
 use Moose;
 extends 'Dist::Zilla::Plugin::Test::DistManifest';
 
@@ -28,7 +28,7 @@ Dist::Zilla::Plugin::DistManifestTests - (DEPRECATED) Release tests for the mani
 
 =head1 VERSION
 
-version 2.000003
+version 2.000004
 
 =head1 SYNOPSIS
 
